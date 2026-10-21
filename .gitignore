@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+backend/.venv/
+backend/data/
+backend/models/
+models/*.keras
+models/*.h5
+models/*.weights.h5
+artifacts/**/*.png
+artifacts/**/*.csv
+artifacts/**/*.json
+!artifacts/README.md
+!artifacts/reports/.gitkeep
+!artifacts/figures/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# Data files
+data/*
+*.zip
+*.tar.gz
+*.tgz
+*.csv
+*.npy
+
+# Logs
+*.log
+
+# Large files
+*.onnx
+*.tflite

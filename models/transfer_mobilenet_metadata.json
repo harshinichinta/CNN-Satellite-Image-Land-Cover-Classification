@@ -1,0 +1,25 @@
+{
+  "model_type": "transfer",
+  "epochs": 1,
+  "batch_size": 32,
+  "image_size": 224,
+  "random_seed": 42,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "preprocessing": "mobilenet_v2",
+  "best_val_accuracy": 0.49000000953674316,
+  "history_file": "transfer_mobilenet_history.json",
+  "manifest": "C:\\CNN-Satellite Image Land-Cover Classification\\data\\processed\\dataset_manifest.json",
+  "quick_training": true,
+  "max_samples_per_class": 100
+}

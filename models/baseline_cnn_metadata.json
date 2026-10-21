@@ -1,0 +1,34 @@
+{
+  "model_type": "baseline",
+  "epochs": 8,
+  "batch_size": 64,
+  "image_size": 64,
+  "random_seed": 42,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "preprocessing": "rescale_0_1",
+  "resize_method": "tensorflow_bilinear_stretch",
+  "best_val_accuracy": 0.7035185098648071,
+  "calibration_temperature": 0.7903317479170305,
+  "history_file": "baseline_cnn_history.json",
+  "manifest": "C:\\CNN-Satellite Image Land-Cover Classification\\data\\processed\\dataset_manifest.json",
+  "quick_training": false,
+  "max_samples_per_class": null,
+  "fine_tune_epochs": 0,
+  "fine_tune_best_val_accuracy": null,
+  "train_samples": 16200,
+  "augmentation": [
+    "horizontal_vertical_flip"
+  ],
+  "calibration_method": "temperature_scaling_on_validation_split"
+}
